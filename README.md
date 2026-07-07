@@ -27,3 +27,5 @@ Requires the model files from
 [onnx-community/Supra-1.5-50M-Instruct-exp-ONNX](https://huggingface.co/onnx-community/Supra-1.5-50M-Instruct-exp-ONNX) and [https://huggingface.co/SupraLabs/Supra-1.5-50M-Instruct-exp](https://huggingface.co/SupraLabs/Supra-1.5-50M-Instruct-exp)
 on HuggingFace: `model_int8.onnx`, `tokenizer.json`, `config.json`,
 `generation_config.json`
+
+Run the python script `build_supra_chat-v2.py` with the model files in the same folder and it should generate the working html file.
