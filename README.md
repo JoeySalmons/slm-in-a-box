@@ -7,7 +7,7 @@ Open it in Chrome. No install, no server, no internet required.
 
 ## Download
 
-→ [supra50m_chat-v1.html](https://github.com/JoeySalmons/slm-in-a-box/releases/tag/v1.0) (~124 MB) — save and open locally
+→ [supra50m_chat-v2.html](https://github.com/JoeySalmons/slm-in-a-box/releases/tag/v2.0) (~120 MB) — download and open locally
 
 Works on any machine (desktop, phone, etc.) with a modern web browser.
 
@@ -16,9 +16,9 @@ Works on any machine (desktop, phone, etc.) with a modern web browser.
 - Fully offline after download — works on a USB stick
 - Adjustable temperature, top-p, top-k, max tokens, repetition penalty
 - System prompt, editable conversation history, stop/regenerate/copy controls
-- ~45 tok/s in Chrome on a modern laptop
+- ~50 tok/s in Chrome on a modern laptop
 
-> **Note:** The WebGPU backend option will likely freeze your browser tab.
+> **Note:** The WebGPU backend option will likely freeze your browser tab; this is very experimental.
 > Stick with CPU (WASM), which is the default.
 
 ## Build It Yourself
